@@ -7,3 +7,6 @@ sudo apt update
 sudo apt install -y --no-install-recommends docker-ce cgroupfs-mount
 sudo systemctl enable docker
 sudo systemctl start docker
+sudo apt update
+sudo apt install -y python3-pip libffi-dev
+sudo pip3 install docker-compose
