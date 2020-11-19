@@ -10,3 +10,4 @@ sudo systemctl start docker
 sudo apt update
 sudo apt install -y python3-pip libffi-dev
 sudo pip3 install docker-compose
+sudo usermod -aG docker pi
